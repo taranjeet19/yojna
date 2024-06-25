@@ -1,0 +1,728 @@
+[
+    {
+      "Aadhar_no": "567890123456",
+      "Name": "Rahul Kumar",
+      "Date_of_birth": "1985-03-15",
+      "Age": 37,
+      "Gender": "Male",
+      "Address": "123, Ganga Nagar, New Delhi",
+      "Password": "Rahul@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMJAY",
+            "Scheme_Name": "Pradhan Mantri Jan Arogya Yojana",
+            "Description": "Health insurance scheme for poor and vulnerable families",
+            "Eligibility_Criteria": "Income criteria based on Socio-Economic Caste Census (SECC)",
+            "Benefits": "Cashless health insurance cover of up to ₹5 lakhs per family per year",
+            "Coverage": "Over 10 crore poor and vulnerable families (approximately 50 crore beneficiaries)",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "987654321098",
+      "Name": "Priya Patel",
+      "Date_of_birth": "1990-08-21",
+      "Age": 31,
+      "Gender": "Female",
+      "Address": "456, Shanti Vihar, Mumbai",
+      "Password": "Priya@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMJDY",
+            "Scheme_Name": "Pradhan Mantri Jan Dhan Yojana",
+            "Description": "Financial inclusion program providing access to financial services",
+            "Eligibility_Criteria": "All Indian citizens",
+            "Benefits": "Savings account, remittance, credit, insurance, pension",
+            "Coverage": "All households in India",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "SSY",
+            "Scheme_Name": "Sukanya Samriddhi Yojana",
+            "Description": "Scheme for the benefit of the girl child",
+            "Eligibility_Criteria": "Girl child below 10 years",
+            "Benefits": "Financial security for education and marriage",
+            "Coverage": "Girl children across India",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "246801357924",
+      "Name": "Amit Sharma",
+      "Date_of_birth": "1978-11-05",
+      "Age": 43,
+      "Gender": "Male",
+      "Address": "789, Raj Nagar, Jaipur",
+      "Password": "Amit@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "135792468012",
+      "Name": "Pooja Gupta",
+      "Date_of_birth": "1982-04-10",
+      "Age": 39,
+      "Gender": "Female",
+      "Address": "1011, Krishna Nagar, Lucknow",
+      "Password": "Pooja@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "987012345678",
+      "Name": "Ravi Singh",
+      "Date_of_birth": "1995-12-30",
+      "Age": 26,
+      "Gender": "Male",
+      "Address": "1213, Raja Park, Jaipur",
+      "Password": "Ravi@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "543216789012",
+      "Name": "Anjali Verma",
+      "Date_of_birth": "1989-06-25",
+      "Age": 32,
+      "Gender": "Female",
+      "Address": "1415, Vivek Vihar, Delhi",
+      "Password": "Anjali@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "890123456789",
+      "Name": "Sandeep Yadav",
+      "Date_of_birth": "1973-09-17",
+      "Age": 48,
+      "Gender": "Male",
+      "Address": "1617, Tilak Nagar, Mumbai",
+      "Password": "Sandeep@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "098765432109",
+      "Name": "Divya Gupta",
+      "Date_of_birth": "1987-02-08",
+      "Age": 35,
+      "Gender": "Female",
+      "Address": "1819, Gandhi Nagar, Delhi",
+      "Password": "Divya@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "321098765432",
+      "Name": "Sunil Kumar",
+      "Date_of_birth": "1998-05-20",
+      "Age": 23,
+      "Gender": "Male",
+      "Address": "2021, Janakpuri, Delhi",
+      "Password": "Sunil@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "456789012345",
+      "Name": "Deepika Singh",
+      "Date_of_birth": "1980-07-12",
+      "Age": 41,
+      "Gender": "Female",
+      "Address": "2223, Kalyan Nagar, Bangalore",
+      "Password": "Deepika@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "890123456098",
+      "Name": "Rajesh Shah",
+      "Date_of_birth": "1975-10-28",
+      "Age": 46,
+      "Gender": "Male",
+      "Address": "2425, Malviya Nagar, Delhi",
+      "Password": "Rajesh@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "765432109876",
+      "Name": "Neha Mishra",
+      "Date_of_birth": "1993-03-03",
+      "Age": 28,
+      "Gender": "Female",
+      "Address": "2627, Patliputra, Patna",
+      "Password": "Neha@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "234567890123",
+      "Name": "Ajay Gupta",
+      "Date_of_birth": "1970-12-18",
+      "Age": 51,
+      "Gender": "Male",
+      "Address": "2829, Indira Nagar, Lucknow",
+      "Password": "Ajay@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "789012345678",
+      "Name": "Preeti Singh",
+      "Date_of_birth": "1984-01-01",
+      "Age": 38,
+      "Gender": "Female",
+      "Address": "3031, Adarsh Nagar, Jaipur",
+      "Password": "Preeti@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "123456789012",
+      "Name": "Alok Sharma",
+      "Date_of_birth": "1996-06-14",
+      "Age": 25,
+      "Gender": "Male",
+      "Address": "3233, Bapu Nagar, Jaipur",
+      "Password": "Alok@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "543210987654",
+      "Name": "Shivani Tiwari",
+      "Date_of_birth": "1986-09-30",
+      "Age": 35,
+      "Gender": "Female",
+      "Address": "3435, Mahaveer Nagar, Jaipur",
+      "Password": "Shivani@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "012345678901",
+      "Name": "Vikas Kumar",
+      "Date_of_birth": "1991-04-07",
+      "Age": 30,
+      "Gender": "Male",
+      "Address": "3637, Tilak Nagar, Mumbai",
+      "Password": "Vikas@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "876543210987",
+      "Name": "Suman Gupta",
+      "Date_of_birth": "1977-07-23",
+      "Age": 44,
+      "Gender": "Female",
+      "Address": "3839, Nirman Nagar, Jaipur",
+      "Password": "Suman@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "210987654321",
+      "Name": "Alok Kumar",
+      "Date_of_birth": "1988-02-15",
+      "Age": 34,
+      "Gender": "Male",
+      "Address": "4041, Mansarovar, Jaipur",
+      "Password": "Alok@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "654321098765",
+      "Name": "Anita Sharma",
+      "Date_of_birth": "1999-11-11",
+      "Age": 22,
+      "Gender": "Female",
+      "Address": "4243, Vaishali Nagar, Jaipur",
+      "Password": "Anita@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "0123456789012",
+      "Name": "Vivek Singh",
+      "Date_of_birth": "1979-08-05",
+      "Age": 42,
+      "Gender": "Male",
+      "Address": "4445, Shyam Nagar, Jaipur",
+      "Password": "Vivek@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "7654321098765",
+      "Name": "Priyanka Mishra",
+      "Date_of_birth": "1992-05-28",
+      "Age": 29,
+      "Gender": "Female",
+      "Address": "4647, Vaishali Nagar, Jaipur",
+      "Password": "Priyanka@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "345678901234",
+      "Name": "Rahul Gupta",
+      "Date_of_birth": "1983-12-20",
+      "Age": 38,
+      "Gender": "Male",
+      "Address": "4849, Pratap Nagar, Jaipur",
+      "Password": "Rahul@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "789012345678",
+      "Name": "Anjali Verma",
+      "Date_of_birth": "1994-03-17",
+      "Age": 27,
+      "Gender": "Female",
+      "Address": "5051, Vaishali Nagar, Jaipur",
+      "Password": "Anjali@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    },
+    {
+      "Aadhar_no": "2345678901234",
+      "Name": "Ramesh Singh",
+      "Date_of_birth": "1976-06-10",
+      "Age": 45,
+      "Gender": "Male",
+      "Address": "5253, Adarsh Nagar, Jaipur",
+      "Password": "Ramesh@123",
+      "Schemes": [
+        {
+            "Scheme_ID": "PMAY",
+            "Scheme_Name": "Pradhan Mantri Awas Yojana",
+            "Description": "Housing for All by 2022",
+            "Eligibility_Criteria": "Economically Weaker Sections (EWS), Low Income Group (LIG), Middle Income Group (MIG)",
+            "Benefits": "Subsidy on home loan interest, affordable housing units",
+            "Coverage": "Urban and rural poor",
+            "Applicable_State": "Nationwide"
+        },
+        {
+            "Scheme_ID": "PMKMY",
+            "Scheme_Name": "Pradhan Mantri Kisan Maan Dhan Yojana",
+            "Description": "Pension scheme for small and marginal farmers",
+            "Eligibility_Criteria": "Age between 18 to 40 years, landholding farmer",
+            "Benefits": "Minimum assured pension of ₹3000 per month after attaining the age of 60 years",
+            "Coverage": "Small and marginal farmers across the country",
+            "Applicable_State": "Nationwide"
+        }
+    ]
+    }
+]
+  
