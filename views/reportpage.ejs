@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/a076do5399.js"></script>
+  <link rel="stylesheet" href="style/stylereport.css" />
+  <title>View profile</title>
+  <link rel="icon" href="yojnanewlogo.png" type="image/x-icon">
+  <link href='https://unpg.com/boxicons@2.1.4/css/boxicons.min.css' 
+  rel='stylesheet'>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+</head>
+<body>
+  <nav class="navbar">
+    <!-- LOGO -->
+    <h1 class="logo">YOJNA</h1>
+
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+
+        <li><a href="/">Home</a></li>
+        <li><a href="/#aboutus">About us</a></li>
+
+        <li class="services">
+          <a href="/">Schemes</a>
+
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/">All schemes </a></li>
+            <li><a href="/">My schemes</a></li>
+          </ul>
+        </li>
+        <li><a href="/">Contact</a></li>
+      </div>
+    </ul>
+    <div class="profile-dropdown">
+      <div onclick="toggle()" class="profile-dropdown-btn">
+        <div class="profile-img">
+          <i class="fa-solid fa-circle"></i>
+        </div>
+
+        <span>
+          <i class="fa-solid fa-angle-down"></i>
+        </span>
+      </div>
+
+      <ul class="profile-dropdown-list">
+        <li class="profile-dropdown-list-item">
+          <a href="/profile">
+            <i class="fa-regular fa-user"></i>
+            view Profile
+          </a>
+        </li>
+
+        
+        <li class="profile-dropdown-list-item">
+          <a href="/feedback">
+            <i class="fa-regular fa-envelope"></i>
+            Feedback
+          </a>
+        </li>
+        <!-- <li class="profile-dropdown-list-item">
+          <a href="/settings">
+            <i class="fa-solid fa-sliders"></i>
+            Settings
+          </a> -->
+        <!-- </li> -->
+        <li class="profile-dropdown-list-item">
+          <a href="/logout">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            Log out
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <script>
+    let profileDropdownList = document.querySelector(".profile-dropdown-list");
+let btn = document.querySelector(".profile-dropdown-btn");
+
+let classList = profileDropdownList.classList;
+
+const toggle = () => classList.toggle("active");
+
+window.addEventListener("click", function (e) {
+  if (!btn.contains(e.target)) classList.remove("active");
+});
+  </script>
+  <div class="background">
+    <div class="profile-container">
+      
+        <h1>My Profile</h1>
+        <div class="profile-info">
+            <label class="profile-label">Name:</label>
+            <div class="profile-value" id="name"></div>
+        </div>
+        <div class="profile-info">
+            <label class="profile-label">Date of Birth:</label>
+            <div class="profile-value" id="dob"></div>
+        </div>
+        <div class="profile-info">
+            <label class="profile-label">Gender:</label>
+            <div class="profile-value" id="gender"></div>
+        </div>
+        <div class="profile-info">
+            <label class="profile-label">Mobile No:</label>
+            <div class="profile-value" id="mobileNo"></div>
+        </div>
+        <div class="profile-info">
+            <label class="profile-label">Aadhar Number:</label>
+            <div class="profile-value" id="aadhar"></div>
+        </div>
+        <div class="profile-info">
+            <label class="profile-label">Address:</label>
+            <div class="profile-value" id="address"></div>
+        </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+        <div class="footer-col">
+            <h2 class="logo2">YOJNA</h2>
+            <p class="footer-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt labore quod ipsa eos magnam? Architecto quas magnam mollitia nemo
+            </p>
+        </div>
+        <div class="footer-col">
+            <h3 class="text-office">
+                Developed by
+                <div class="underline"><span></span></div>
+            </h3>
+            <p class="team-name">TekIT</p>
+            <p class="members">Members</p>
+            <p>Shubhamdeep Singh</p>
+
+            <p>Isha Nanda</p>
+            <p>Taranjeet Kaur</p>
+            <p>Sushant Bansal</p>
+        </div>
+        <div class="footer-col">
+            <h3>
+                Useful Links
+                <div class="underline"><span></span></div>
+            </h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Testimonials</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>
+                Newsletter
+                <div class="underline"><span></span></div>
+            </h3>
+            <form action="">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" placeholder="Enter Company Email">
+                <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+            </form>
+            <h3 class="connect-us">
+              Connect with us
+              <div class="underline"><span></span></div>
+            </h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076do5399.js"></script>
+    <title>Feedback Form - Yojna</title>
+    <link rel="icon" href="yojnanewlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/feedback.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <h1 class="logo">YOJNA</h1>
+    
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+    
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+    
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+    
+            <li><a href="/">Home</a></li>
+            <li><a href="/#aboutus">About us</a></li>
+    
+            <li class="services">
+              <a href="/">Schemes</a>
+    
+              <!-- DROPDOWN MENU -->
+              <ul class="dropdown">
+                <li><a href="/schemes">All schemes </a></li>
+                <li><a href="/">My schemes</a></li>
+              </ul>
+            </li>
+            <li><a href="/">Contact</a></li>
+          </div>
+        </ul>
+        <div class="profile-dropdown">
+          <div onclick="toggle()" class="profile-dropdown-btn">
+            <div class="profile-img">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+    
+            <span>
+              <i class="fa-solid fa-angle-down"></i>
+            </span>
+          </div>
+    
+          <ul class="profile-dropdown-list">
+            <li class="profile-dropdown-list-item">
+              <a href="/profile">
+                <i class="fa-regular fa-user"></i>
+                Edit Profile
+              </a>
+            </li>
+    
+            
+            <li class="profile-dropdown-list-item">
+              <a href="/feedback">
+                <i class="fa-regular fa-envelope"></i>
+                Feedback
+              </a>
+            </li>
+            <!-- <li class="profile-dropdown-list-item">
+              <a href="/settings">
+                <i class="fa-solid fa-sliders"></i>
+                Settings
+              </a> -->
+            <!-- </li> -->
+            <li class="profile-dropdown-list-item">
+              <a href="/logout">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                Log out
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+      <script>
+        let profileDropdownList = document.querySelector(".profile-dropdown-list");
+    let btn = document.querySelector(".profile-dropdown-btn");
+    
+    let classList = profileDropdownList.classList;
+    
+    const toggle = () => classList.toggle("active");
+    
+    window.addEventListener("click", function (e) {
+      if (!btn.contains(e.target)) classList.remove("active");
+    });
+      </script>
+      <div class="background"></div>
+<h1>Feedback Form</h1>
+
+<form action="/feedback" method="post">
+    <label for="question1">How did you hear about us?</label>
+    <input type="text" id="question1" name="question1" required>
+
+    <label for="question2">What improvements would you like to see?</label>
+    <textarea id="question2" name="question2" required></textarea>
+
+    <label for="question3">Did you discover any new government schemes on our website that you were previously unaware of?</label>
+    <input type="text" id="question3" name="question3" required>
+
+    <label for="feedback">Additional Comments:</label>
+    <textarea id="feedback" name="feedback"></textarea>
+
+    <input type="submit" value="Submit Feedback">
+</form>
+
+<footer>
+    <div class="container">
+        <div class="footer-col">
+            <h2 class="logo2">YOJNA</h2>
+            <p class="footer-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt labore quod ipsa eos magnam? Architecto quas magnam mollitia nemo
+            </p>
+        </div>
+        <div class="footer-col">
+            <h3 class="text-office">
+                Developed by
+                <div class="underline"><span></span></div>
+            </h3>
+            <p class="team-name">TekIT</p>
+            <p class="members">Members</p>
+            <p>Shubhamdeep Singh</p>
+
+            <p>Isha Nanda</p>
+            <p>Taranjeet Kaur</p>
+            <p>Sushant Bansal</p>
+        </div>
+        <div class="footer-col">
+            <h3>
+                Useful Links
+                <div class="underline"><span></span></div>
+            </h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Testimonials</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>
+                Newsletter
+                <div class="underline"><span></span></div>
+            </h3>
+            <form action="">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" placeholder="Enter Company Email">
+                <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+            </form>
+            <h3 class="connect-us">
+              Connect with us
+              <div class="underline"><span></span></div>
+            </h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>

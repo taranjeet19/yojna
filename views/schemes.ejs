@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/a076do5399.js"></script>
+  <link rel="stylesheet" href="style/schemesstyle.css" />
+  <title>Yojna</title>
+  <link rel="icon" href="yojnanewlogo.png" type="image/x-icon">
+  <link href='https://unpg.com/boxicons@2.1.4/css/boxicons.min.css' 
+  rel='stylesheet'>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <h1 class="logo">YOJNA</h1>
+    
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+    
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+    
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+    
+            <li><a href="/">Home</a></li>
+            <li><a href="/#aboutus">About us</a></li>
+    
+            <li class="services">
+              <a href="/">Schemes</a>
+    
+              <!-- DROPDOWN MENU -->
+              <ul class="dropdown">
+                <li><a href="/schemes">All schemes </a></li>
+                <li><a href="/">My schemes</a></li>
+              </ul>
+            </li>
+            <li><a href="/">Contact</a></li>
+          </div>
+        </ul>
+        <div class="profile-dropdown">
+          <div onclick="toggle()" class="profile-dropdown-btn">
+            <div class="profile-img">
+              <i class="fa-solid fa-circle"></i>
+            </div>
+    
+            <span
+              ></span>
+              <i class="fa-solid fa-angle-down"></i>
+            </span>
+          </div>
+    
+          <ul class="profile-dropdown-list">
+            <li class="profile-dropdown-list-item">
+              <a href="/profile">
+                <i class="fa-regular fa-user"></i>
+                view Profile
+              </a>
+            </li>
+    
+            
+            <li class="profile-dropdown-list-item">
+              <a href="/feedback">
+                <i class="fa-regular fa-envelope"></i>
+                Feedback
+              </a>
+            </li>
+            <!-- <li class="profile-dropdown-list-item">
+              <a href="/settings">
+                <i class="fa-solid fa-sliders"></i>
+                Settings
+              </a> -->
+            <!-- </li> -->
+            <li class="profile-dropdown-list-item">
+              <a href="/logout">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                Log out
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <script>
+        let profileDropdownList = document.querySelector(".profile-dropdown-list");
+    let btn = document.querySelector(".profile-dropdown-btn");
+    
+    let classList = profileDropdownList.classList;
+    
+    const toggle = () => classList.toggle("active");
+    
+    window.addEventListener("click", function (e) {
+      if (!btn.contains(e.target)) classList.remove("active");
+    });
+      </script>
+    <div class="background">
+    <div class="contained">
+        <h1>All Schemes Available</h1>
+        <!-- Scheme 1 -->
+        <div class="scheme">
+            <h2>Scholarship Scheme for Scheduled Castes (SC)</h2>
+            <p>This scheme provides financial assistance to students belonging to Scheduled Castes (SC) to pursue higher education. It covers tuition fees, maintenance allowance, and other incidental expenses. <a href="https://www.myscheme.gov.in/schemes/sscssgi">Apply Now</a></p>
+        </div>
+        <!-- Scheduled Caste Entrepreneurship Scheme -->
+        <div class="scheme">
+            <h2>Scheduled Caste Entrepreneurship Scheme</h2>
+            <p>Designed to promote entrepreneurship among Scheduled Caste individuals, this scheme provides financial assistance, training, and mentorship to SC entrepreneurs to start and grow their businesses. <a href="https://www.myscheme.gov.in/schemes/amcsy">Apply Now</a></p>
+        </div>
+        <!-- Free Coaching Scheme for SC and Other Backward Classes (OBC) -->
+        <div class="scheme">
+            <h2>Free Coaching Scheme for SC and Other Backward Classes (OBC)</h2>
+            <p>Under this scheme, coaching assistance is provided to students belonging to Scheduled Castes (SC) and Other Backward Classes (OBC) to prepare for competitive exams such as civil services, banking, and entrance exams for professional courses. <a href="https://www.myscheme.gov.in/schemes/amcsy">Apply Now</a></p>
+        </div>
+        <!-- Dr. Ambedkar Post-Matric Scholarship for Economically Backward Classes (EBC) -->
+        <div class="scheme">
+            <h2>Dr. Ambedkar Post-Matric Scholarship for Economically Backward Classes (EBC)</h2>
+            <p>This scholarship scheme offers financial support to students from Economically Backward Classes (EBC) pursuing post-matric studies. It covers tuition fees, maintenance allowance, and other educational expenses. <a href="https://www.myscheme.gov.in/schemes/amcsy">Apply Now</a></p>
+        </div>
+        <!-- Skill Development Training Scheme for SC Youth -->
+        <div class="scheme">
+            <h2>Skill Development Training Scheme for SC Youth</h2>
+            <p>Aimed at enhancing the employability of Scheduled Caste (SC) youth, this scheme provides skill development training in various sectors such as IT, healthcare, hospitality, and manufacturing. <a href="https://www.myscheme.gov.in/schemes/amcsy">Apply Now</a></p>
+        </div>
+        <!-- Hostel Facility Scheme for SC Students -->
+        <div class="scheme">
+            <h2>Hostel Facility Scheme for SC Students</h2>
+            <p>To facilitate access to education for SC students, this scheme provides hostel facilities with accommodation, meals, and study amenities for those pursuing education away from their hometowns. <a href="https://www.myscheme.gov.in/schemes/amcsy">Apply Now</a></p>
+        </div>
+        <!-- Financial Assistance Scheme for SC Women Entrepreneurs -->
+        <div class="scheme">
+            <h2>Financial Assistance Scheme for SC Women Entrepreneurs</h2>
+            <p>This scheme offers financial assistance, grants, and loans to support entrepreneurship ventures initiated by Scheduled Caste (SC) women. It aims to promote economic empowerment and self-reliance among SC women. <a href="https://www.myscheme.gov.in/schemes/amcsy">Apply Now</a></p>
+        </div>
+        <!-- Dr. Ambedkar Scheme for Social Integration through Inter-Caste Marriage -->
+        <div class="scheme">
+            <h2>Dr. Ambedkar Scheme for Social Integration through Inter-Caste Marriage</h2>
+            <p>Incentivizing inter-caste marriages, this scheme provides financial incentives and support to couples who marry across caste lines, promoting social harmony and integration. <a href="https://www.myscheme.gov.in/schemes/amcsy">Apply Now</a></p>
+        </div>
+        <!-- National Fellowship Scheme for SC Students -->
+        <div class="scheme">
+            <h2>National Fellowship Scheme for SC Students</h2>
+            <p>The National Fellowship Scheme provides financial assistance to SC students pursuing higher education and research at the M.Phil. and Ph.D. levels, covering stipend, contingency grant, and other expenses. <a href="https://www.myscheme.gov.in/schemes/amcsy">Apply Now</a></p>
+        </div>
+        <!-- Start-up Support Scheme for SC/ST Entrepreneurs -->
+        <div class="scheme">
+            <h2>Start-up Support Scheme for SC/ST Entrepreneurs</h2>
+            <p>Aimed at fostering innovation and entrepreneurship, this scheme provides funding, mentorship, and incubation support to Scheduled Caste (SC) and Scheduled Tribe (ST) entrepreneurs to establish start-ups. <a href="https://www.myscheme.gov.in/schemes/amcsy">Apply Now</a></p>
+        </div>
+    </div>
+    <footer>
+      <div class="container">
+          <div class="footer-col">
+              <h2 class="logo2">YOJNA</h2>
+              <p class="footer-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt labore quod ipsa eos magnam? Architecto quas magnam mollitia nemo
+              </p>
+          </div>
+          <div class="footer-col">
+              <h3 class="text-office">
+                  Developed by
+                  <div class="underline"><span></span></div>
+              </h3>
+              <p class="team-name">TekIT</p>
+              <p class="members">Members</p>
+              <p>Shubhamdeep Singh</p>
+  
+              <p>Isha Nanda</p>
+              <p>Taranjeet Kaur</p>
+              <p>Sushant Bansal</p>
+          </div>
+          <div class="footer-col">
+              <h3>
+                  Useful Links
+                  <div class="underline"><span></span></div>
+              </h3>
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Testimonials</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h3>
+                  Newsletter
+                  <div class="underline"><span></span></div>
+              </h3>
+              <form action="">
+                  <i class="fa-solid fa-envelope"></i>
+                  <input type="text" placeholder="Enter Company Email">
+                  <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+              </form>
+              <h3 class="connect-us">
+                Connect with us
+                <div class="underline"><span></span></div>
+              </h3>
+              <div class="social-icons">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+              </div>
+          </div>
+      </div>
+    </footer>
+</body>
+</html>
